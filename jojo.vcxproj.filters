@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Headers">
+      <UniqueIdentifier>{b55fb88b-4cc6-4b3e-8939-dcbee01d6f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Interfaces">
+      <UniqueIdentifier>{44aa176e-49e8-4974-8507-934b2af5e08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Memory">
+      <UniqueIdentifier>{76de0ad0-8346-41b6-8071-3e42d80c785e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Graphics">
+      <UniqueIdentifier>{fd8b4d28-7b02-4ae3-9ee4-698cd695c94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Graphics\ui">
+      <UniqueIdentifier>{201f3f75-fb79-4199-acdd-a6e079d333cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Features">
+      <UniqueIdentifier>{5148ba82-c81f-4dd5-a129-53587dac18e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Math">
+      <UniqueIdentifier>{b4b7f861-0285-40d4-a665-eecb5835351f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jojo.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>Исходные файлы\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="m_globals.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GetOffsets.cpp">
+      <Filter>Исходные файлы\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessMemory.cpp">
+      <Filter>Исходные файлы\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct.cpp">
+      <Filter>Исходные файлы\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="img\imgui.cpp">
+      <Filter>Исходные файлы\Graphics\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="img\imgui_demo.cpp">
+      <Filter>Исходные файлы\Graphics\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="img\imgui_draw.cpp">
+      <Filter>Исходные файлы\Graphics\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="img\imgui_impl_dx9.cpp">
+      <Filter>Исходные файлы\Graphics\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="img\imgui_impl_win32.cpp">
+      <Filter>Исходные файлы\Graphics\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="img\imgui_widgets.cpp">
+      <Filter>Исходные файлы\Graphics\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseEntity.cpp">
+      <Filter>Исходные файлы\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="configurationSystem.cpp">
+      <Filter>Исходные файлы\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Исходные файлы\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldToScreen.cpp">
+      <Filter>Исходные файлы\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Models.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Исходные файлы\Interfaces</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m_headers.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>Исходные файлы\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="m_globals.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GetOffsets.h">
+      <Filter>Исходные файлы\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessMemory.h">
+      <Filter>Исходные файлы\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct.h">
+      <Filter>Исходные файлы\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="img\imconfig.h">
+      <Filter>Исходные файлы\Graphics\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="img\imgui.h">
+      <Filter>Исходные файлы\Graphics\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="img\imgui_impl_dx9.h">
+      <Filter>Исходные файлы\Graphics\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="img\imgui_impl_win32.h">
+      <Filter>Исходные файлы\Graphics\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="img\imgui_internal.h">
+      <Filter>Исходные файлы\Graphics\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="img\imstb_rectpack.h">
+      <Filter>Исходные файлы\Graphics\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="img\imstb_textedit.h">
+      <Filter>Исходные файлы\Graphics\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="img\imstb_truetype.h">
+      <Filter>Исходные файлы\Graphics\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseEntity.h">
+      <Filter>Исходные файлы\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="configurationSystem.h">
+      <Filter>Исходные файлы\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Исходные файлы\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldToScreen.h">
+      <Filter>Исходные файлы\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Models.h">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Исходные файлы\Interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="jojo.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Sounds\Stapler.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="Sounds\bameware.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="Sounds\fatality.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="Sounds\Pop.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="Sounds\Punch.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="Sounds\rifk7.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="Sounds\skeet.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
